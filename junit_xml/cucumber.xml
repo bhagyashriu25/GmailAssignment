@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.38">
+<testcase classname="Cabmanager Login Feature" name="CabManager Login Scenario" time="0.099">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is already on Login Page.........................................undefined
+And title of login page is CabManager 5.....................................skipped
+When user enters "thk5453" and "c0nundrum"..................................skipped
+Then user login successfully................................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Cabmanager Login Feature" name="To verify that admin should able to send message to driver" time="0.005">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is login to CabManager app and go to Driver menu.................undefined
+And User goes to Mobile Message Center submenu..............................skipped
+When User selected "Anna" driver from Driver List...........................skipped
+And Send message to driver..................................................skipped
+Then Message should get sent to driver......................................skipped
+]]></failure>
+</testcase>
+</testsuite>

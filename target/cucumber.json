@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-09T13:51:55.692Z",
+        "line": 11,
+        "name": "CabManager Login Scenario",
+        "description": "",
+        "id": "cabmanager-login-feature;cabmanager-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is already on Login Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "title of login page is CabManager 5",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters \"thk5453\" and \"c0nundrum\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user login successfully",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-09T13:51:55.810Z",
+        "line": 14,
+        "name": "To verify that admin should able to send message to driver",
+        "description": "",
+        "id": "cabmanager-login-feature;to-verify-that-admin-should-able-to-send-message-to-driver",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User is login to CabManager app and go to Driver menu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User goes to Mobile Message Center submenu",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User selected \"Anna\" driver from Driver List",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Send message to driver",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Message should get sent to driver",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CM-1636"
+          },
+          {
+            "name": "@COMPLETED"
+          }
+        ]
+      }
+    ],
+    "name": "Cabmanager Login Feature",
+    "description": "",
+    "id": "cabmanager-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/gmail.feature",
+    "tags": []
+  }
+]
